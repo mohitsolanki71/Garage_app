@@ -1,0 +1,25 @@
+#navbar {
+  background-color: #2f2e2e;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(219, 219, 219);
+  font-weight: 100;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: white;
+  font-size: 20px;
+}
