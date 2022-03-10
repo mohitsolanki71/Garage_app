@@ -1,0 +1,130 @@
+{
+  "shops": [
+    {
+      "id": "1",
+      "name": "Ram Garage",
+      "image": "https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2015/09/20202805/a-morning-with-an-astounding-indian-car-collector-1476934587468-1000x667.jpg",
+      "location": "housingboard",
+      "rating": 5,
+      "payment": "online",
+      "discount": "10"
+    },
+    {
+      "id": "2",
+      "name": "Rahul Garage",
+      "image": "https://content3.jdmagicbox.com/comp/guwahati/b7/9999px361.x361.180627145750.g8b7/catalogue/new-india-automobiles-garage-guwahati-k4az66izot.jpg?clr=444422",
+      "location": "housingboard",
+      "rating": 2,
+      "payment": "online",
+      "discount": "20"
+    },
+    {
+      "id": "3",
+      "name": "India Garage",
+      "image": "https://content.jdmagicbox.com/comp/jalgaon/e5/9999px257.x257.130105110814.p1e5/catalogue/india-garage-anand-nagar-jalgaon-car-repair-and-services-twr50if.jpg",
+      "location": "sadarbazar",
+      "rating": 4,
+      "payment": "online",
+      "discount": "20"
+    },
+    {
+      "id": "4",
+      "name": "Go Mechanic",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipMcHIUfHQre4_tcagn02TSspmY4elrNVlOEc-69=w1080-k-no",
+      "location": "sadarbazar",
+      "rating": 5,
+      "payment": "offline",
+      "discount": "10"
+    },
+    {
+      "id": "5",
+      "name": "Royal Motors",
+      "image": "https://www.smergers.com/media/businessphoto/422364-12866742619.jpg",
+      "location": "geetabhawan",
+      "rating": 2,
+      "payment": "online",
+      "discount": "50"
+    },
+    {
+      "id": "6",
+      "name": "KGN Motors",
+      "image": "https://content.jdmagicbox.com/comp/tumkur/e2/9999px816.x816.170523175801.q4e2/catalogue/kgn-motors-tumkur-08niaf9bud.jpg",
+      "location": "palikabazar",
+      "rating": 2,
+      "payment": "offline",
+      "discount": "20"
+    },
+    {
+      "id": "7",
+      "name": "Sharma Auto",
+      "image": "https://cdn.shortpixel.ai/spai/w_788+q_lossy+ret_img+to_webp/https://businessdefiner.com/wp-content/uploads/2015/07/Budget-Service-Station.jpg",
+      "location": "palikabazar",
+      "rating": 1,
+      "payment": "online",
+      "discount": "50"
+    },
+    {
+      "id": "8",
+      "name": "Laxman Garage",
+      "image": "https://content.jdmagicbox.com/comp/bangalore/67/080ppe04367/catalogue/ashwa-car-pvt-ltd-bangalore-car-repair-and-services-maruti-suzuki-3h3d0p9.jpg",
+      "location": "geetabhawan",
+      "rating": 2,
+      "payment": "offline",
+      "discount": "20"
+    },
+    {
+      "id": "9",
+      "name": "Manmohan Auto",
+      "image": "https://i.pinimg.com/originals/a2/2d/cc/a22dcc56dabd9a8833bcaf04a0d0175d.jpg",
+      "location": "housingboard",
+      "rating": 3,
+      "payment": "online",
+      "discount": "30"
+    },
+    {
+      "id": "10",
+      "name": "Car wale",
+      "image": "https://washguyslube.com/wp-content/uploads/2021/05/Washguys1.jpg",
+      "location": "sadarbazar",
+      "rating": 4,
+      "payment": "offline",
+      "discount": "20"
+    },
+    {
+      "id": "11",
+      "name": "Boss Hoss",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-532594228-1537455729.jpg",
+      "location": "palikabazar",
+      "rating": 2,
+      "payment": "offline",
+      "discount": "10"
+    },
+    {
+      "id": "12",
+      "name": "Mahendar Auto",
+      "image": "https://thumbs.dreamstime.com/b/eastern-ethnic-handsome-black-hair-beard-man-uniform-working-auto-service-eastern-ethnic-handsome-black-hair-233637784.jpg",
+      "location": "housingboard",
+      "rating": 1,
+      "payment": "online",
+      "discount": "30"
+    },
+    {
+      "id": "13",
+      "name": "Rajan Auto Mechanic",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPitdqCNSpcc9CDHBel3piYBekrChB70ieOSjhB=s1600-w400",
+      "location": "housingbaord",
+      "rating": 3,
+      "payment": "online",
+      "discount": "30"
+    },
+    {
+      "id": "14",
+      "name": "Wonder Garage",
+      "image": "https://p2.nicelocal.in/preview/E_YR2tPSSc2yUzUYw2z0Sg/600x440x85/1/2/7/original_5fc66498aa107615636d794c_61ef9ddd51e07.jpg",
+      "location": "palikabazar",
+      "rating": 4,
+      "payment": "offline",
+      "discount": "20"
+    }
+  ]
+}
