@@ -4,6 +4,7 @@ import { Cart } from "./components/cart";
 import { CheckOut } from "./components/checkout";
 import { Home } from "./components/home";
 import { ShopDetail } from "./components/shopDetail";
+import { SuccessPage } from "./components/successPage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         </Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/checkout" element={<CheckOut />}></Route>
+        <Route path="/success" element={<SuccessPage />}></Route>
       </Routes>
     </div>
   );

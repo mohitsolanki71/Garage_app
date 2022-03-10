@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./checkout.css";
 
-export const CheckOut = () => {
-  const [total, setTotal] = useState(0);
+export const SuccessPage = () => {
   const [form, setForm] = useState([]);
   const navigate = useNavigate();
 
@@ -12,27 +11,39 @@ export const CheckOut = () => {
   }, []);
 
   const getData = () => {
-    let res = JSON.parse(localStorage.getItem("total_amount"));
-    setTotal(res);
+    let res = JSON.parse(localStorage.getItem("booking"));
+    setForm(res);
   };
 
   const handleClick = () => {
     navigate("/");
   };
-  console.log("Booking : ", form);
 
   return (
     <div id="checkDiv">
       <div>
-        <h1 id="check_head">Checkout</h1>
-        <p id="check_sec_head">The Royal Taste</p>
+        <h1 id="check_head">Confirmation</h1>
+        <p id="check_sec_head">Your Booking is Confirmed</p>
       </div>
       <div>
-        <h3>Total : {total}</h3>
+        <div>
+          <p>
+            <b>Name: </b> {form.nam}
+          </p>
+          <p>
+            <b>Contact Number: </b> {form.contact}
+          </p>
+          <p>
+            <b>Vehicle Number: </b> {form.vehicle}
+          </p>
+          <p>
+            <b>Timing: </b> {form.time}
+          </p>
+        </div>
       </div>
       <div id="check_bottom">
         <button id="check_btn" onClick={handleClick}>
-          Place Order
+          Go to Home
         </button>
       </div>
     </div>

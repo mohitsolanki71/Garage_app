@@ -34,7 +34,7 @@ export const CheckOut = () => {
     ) {
       alert("Please fill all the details !!");
     } else {
-      localStorage.setItem("punctured_booking", JSON.stringify(form));
+      localStorage.setItem("booking", JSON.stringify(form));
       alert("Appointment booked successfully !!");
       navigate("/success");
     }
