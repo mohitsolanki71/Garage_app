@@ -1,0 +1,66 @@
+#cart_container {
+  backdrop-filter: blur(7px);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  margin: 2% auto;
+  transition: 0.9s;
+}
+#cart_container:hover {
+  box-shadow: rgba(34, 33, 33, 0.35) 0px 5px 15px;
+}
+
+#service_detail {
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+  background-color: rgb(175, 175, 175);
+  padding: 10px 20px;
+}
+#if_cart_empty {
+  text-align: center;
+  color: white;
+  background-color: rgb(163, 163, 163);
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+}
+#heading {
+  background-color: #2f2e2e;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  transition: 0.9s;
+}
+#heading:hover {
+  background-color: black;
+}
+#next_heading {
+  color: rgb(51, 45, 45);
+  text-align: center;
+  margin-top: 10px;
+}
+#check_btn {
+  width: 40%;
+  margin: 10px 30%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #888888;
+  background-color: rgb(218, 218, 218);
+  transition: 0.7s;
+}
+#check_btn:hover {
+  background-color: white;
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#cart_bottom {
+  background-color: rgb(97, 97, 97);
+  padding: 5px 20px;
+}

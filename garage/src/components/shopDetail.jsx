@@ -59,37 +59,37 @@ export const ShopDetail = () => {
           <b>Payment Method : </b> {data.payment}
         </p>
         <p>
-          <b>Discount : </b> {data.discount}
+          <b>Discount : </b> {data.discount} %
         </p>
         <div id="service_list">
           <div>
             <input
               type="checkbox"
               value="true"
-              name="puncture"
+              name="Puncture"
               onChange={handleChange}
             />
-            <label htmlFor="puncture">Puncture</label>
+            <label htmlFor="Puncture">Puncture</label>
           </div>
 
           <div>
             <input
               type="checkbox"
               value="true"
-              name="wash"
+              name="Washing"
               onChange={handleChange}
             />
-            <label htmlFor="wash">Washing</label>
+            <label htmlFor="Washing">Washing</label>
           </div>
 
           <div>
             <input
               type="checkbox"
               value="true"
-              name="service"
+              name="Service"
               onChange={handleChange}
             />
-            <label htmlFor="service">Service</label>
+            <label htmlFor="Service">Service</label>
           </div>
 
           <button id="addToCartBtn" onClick={handleClick}>
